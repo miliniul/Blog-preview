@@ -5,18 +5,9 @@
 
 @font-face {
     font-family: "Figtree";
-    src: local("Figtree Medium"),
-        local("Figtree-Medium"),
-        url("/assets/fonts/static/Figtree-Medium.ttf") format("truetype");
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "Figtree";
-    src: local("Figtree ExtraBold"),
-        local("Figtree-ExtraBold"),
-        url("/assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
-    font-weight: 800;
+    src: local("Figtree"),
+     url("/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 900;
 }
 
 body {
@@ -29,9 +20,9 @@ body {
 
     font-family: "Figtree", sans-serif;
     color: #111111;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0;
-
+    
     background-color: #F4D04E;
 }
 
@@ -53,6 +44,7 @@ main {
 
 footer {
     margin-top: auto;
+    padding: 10px;
 }
 
 .main-image {
@@ -65,25 +57,27 @@ footer {
 .text-content {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
     align-self: stretch;
     height: auto;
 }
 
 .category {
     align-self: flex-start;
+
+    padding: 4px 12px;
     
     font-size: 12px;
     font-weight: 800;
+    
 
-    padding: 1px 12px;
     background-color: #F4D04E;
     border-radius: 4px;
 }
 
 .publish-date {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .text-content h1 {
@@ -91,9 +85,16 @@ footer {
     font-weight: 800;
 }
 
+.text-content h1:hover {
+    color: #F4D04E;
+    cursor: pointer;
+}
+
 .description {
     font-size: 14px;
+    font-weight: 400;
     color: #6B6B6B;
+    
 }
 
 .author {
@@ -113,7 +114,7 @@ footer {
 .attribution {
     font-size: 0.6875rem;
     text-align: center;
-    font-weight: 500s;
+    font-weight: 500;
 }
 
 .attribution a {
@@ -124,4 +125,21 @@ footer {
     main {
         width: 384px;
     }
+
+    .category {
+        font-size: 14px;
+    }
+
+    .publish-date {
+        font-size: 14px;
+    }
+
+    .text-content h1 {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+    
 }
