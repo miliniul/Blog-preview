@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Blog preview]()
+- Solution URL: [Blog preview](https://miliniul.github.io/Blog-preview/)
 
 ## My process
 
@@ -39,10 +39,11 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
+
+I learned how to use Flexbox to arrange elements and follow a mobile-first workflow to build responsive layouts.
 
 
 ### Continued development
@@ -60,7 +61,7 @@ I also want to improve accessibility and write cleaner, more organized code as I
 
 ### AI Collaboration
 
-I used Perplexity to find learning resources and explore HTML and CSS concepts while working on this project. It helped me understand Grid and Flexbox, how to add custom fonts, and how to manage spacing between elements.
+I used Perplexity to find learning resources and explore HTML and CSS concepts while working on this project. It helped me understand Flexbox, how to add custom fonts, and how to manage spacing between elements.
 
 I used it as a learning aid, testing the suggestions in my project to better understand how they worked.
 
