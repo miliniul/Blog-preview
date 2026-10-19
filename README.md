@@ -20,9 +20,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### The challenge
 
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
+The card title is an interactive link. Its text changes from black to yellow on hover and when focused using keyboard navigation, providing visual feedback for both mouse and keyboard users.
 
 ### Screenshot
 
@@ -43,7 +41,11 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to use Flexbox to arrange elements and follow a mobile-first workflow to build responsive layouts.
+## What I learned
+
+I learned how to use Flexbox to organize the card's layout. I arranged the image, text content, and author section vertically using `flex-direction: column` and a `24px` gap. Inside the author section, I used `display: flex` and `align-items: center` to align the avatar with the author's name. This helped me control spacing and alignment without adding individual margins to every element.
+
+I also practiced a mobile-first workflow by writing the mobile styles first, then adding a media query for screens at least `640px` wide. On larger screens, I increased the card's width from `327px` to `384px` and adjusted the font sizes. Using `min()` together with `calc(100% - 2rem)` allowed the card to shrink on narrow screens while leaving space on both sides.
 
 
 ### Continued development
